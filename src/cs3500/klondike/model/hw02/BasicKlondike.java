@@ -9,14 +9,16 @@ import java.util.Map;
 
 
 /**
- * This is a stub implementation of the {@link cs3500.klondike.model.hw02.KlondikeModel} interface.
- * You may assume that the actual implementation of BasicKlondike will have a zero-argument (i.e.
- * default) constructor, and that all the methods below will be implemented.  You may not make any
- * other assumptions about the implementation of this class (e.g. what fields it might have, or
- * helper methods, etc.).
+ * Represents a basic version of the Klondike solitaire game.
+ * This class implements the {@link cs3500.klondike.model.hw02.KlondikeModel} interface,
+ * offering functionality to simulate the game of Klondike solitaire.
+ * It maintains the state of the game including the deck, cascade piles, foundation piles,
+ * and the status of the game.
  *
- * <p>Once you've implemented all the constructors and methods on your own, you can
- * delete the placeholderWarning() method.
+ * <p>BasicKlondike supports operations to start a game, move cards between different piles,
+ * draw cards from the deck, and discard draw cards. The game can be played with a shuffled
+ * or unshuffled deck, and various validations are implemented to ensure legal moves
+ * according to the rules of Klondike solitaire.
  */
 public class BasicKlondike implements cs3500.klondike.model.hw02.KlondikeModel {
 
